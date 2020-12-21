@@ -1,0 +1,5 @@
+i = input("Enter the value")
+l = len(i)-1
+while l >= 0:
+    print(i[l])
+    l -= 1
