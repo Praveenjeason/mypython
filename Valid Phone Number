@@ -1,0 +1,7 @@
+import re
+number = ['9999999999','9999-99','999x9999']
+for val in number:
+    if re.match(r'[6-9]{1}[0-9]{9}',val) and len(val) == 10:
+        print('Number is valid')
+    else:
+        print('Number is in valid')
